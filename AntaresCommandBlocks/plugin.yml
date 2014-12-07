@@ -1,0 +1,9 @@
+name: AntaresCommandBlocks
+main: kloudy.main.AntaresCommandBlocks
+version: 1.0
+author: Kloudy
+
+permissions:
+  acb.set:
+    description: Allows a player to use all bcb commands and features.
+    default: op
