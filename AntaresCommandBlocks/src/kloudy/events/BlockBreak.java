@@ -17,5 +17,10 @@ public class BlockBreak implements Listener
 		{
 			event.setCancelled(true);
 		}
+
+		if(player.getItemInHand().getType() == Material.BOOK_AND_QUILL && event.getBlock().getType() == Material.COBBLESTONE && player.hasPermission("acb.set"))
+		{
+			event.setCancelled(true);
+		}
 	}
 }
